@@ -381,6 +381,23 @@ p:last-child { margin-bottom: 0; }
   font-weight: 500;
 }
 
+.project-screenshot {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius-sm);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.book-cover {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius-sm);
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
 /* ── Project cards ─────────────────────────────────────────── */
 .project-card {
   background-color: var(--color-bg);
