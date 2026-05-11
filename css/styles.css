@@ -1,8 +1,8 @@
 /* ============================================================
-   triciaballad.com — styles.css
+   tballad.me — styles.css
    ============================================================ */
 
-/* ── Google Fonts loaded in HTML <head> (Architect's Daughter + Barlow) ── */
+/* ── Google Fonts loaded in HTML <head> (Caveat + Barlow) ── */
 
 /* ── Custom Properties ─────────────────────────────────────── */
 :root {
@@ -19,7 +19,7 @@
   --radius-sm: 6px;
   --max-width: 1000px;
 
-  --font-display: 'Architects Daughter', cursive;
+  --font-display: 'Caveat', cursive;
   --font-body: 'Barlow', sans-serif;
 }
 

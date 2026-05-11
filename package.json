@@ -1,0 +1,8 @@
+{
+  "name": "tballad-me-site",
+  "private": true,
+  "description": "Static portfolio for tballad.me",
+  "scripts": {
+    "test": "node --test scripts/inclusive-copy-check.test.mjs"
+  }
+}
