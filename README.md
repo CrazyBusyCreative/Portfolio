@@ -15,11 +15,14 @@ tballad.me/
 ├── css/
 │   └── styles.css      All styles (tokens, layout, components)
 ├── js/
-│   └── nav.js          Mobile menu + active nav state
+│   ├── nav.js              Mobile menu + active nav state
+│   └── contact-form.js     Contact page: builds mailto draft on submit
+├── design-system/      Authoritative token + UI kit bundle (see below)
 ├── assets/
 │   ├── Ballad_AI_Engineer.pdf   Resume PDF (add / replace manually)
 │   ├── Ballad_AI_Engineer.docx  Resume DOCX (add / replace manually)
-│   └── …               Project screenshots and book covers
+│   ├── icons/              e.g. bar-chart-3.svg (design system)
+│   └── …                   Project screenshots and book covers
 └── README.md
 ```
 
@@ -101,8 +104,16 @@ Runs a small check that HTML and README avoid deprecated branding strings.
 
 Loaded from Google Fonts in each page `<head>`:
 
-- **Caveat** — headings and display text
-- **Barlow** — body, nav, tags, metadata
+- **Source Serif 4** — headings, nav wordmark, footer copyright, quotes, and other display moments (per [design-system](design-system/) tokens)
+- **Barlow** — body, nav links, tags, buttons, form fields
+
+## Contact form
+
+On [contact.html](contact.html), **Send a Message** has no server backend. Submitting the form opens the visitor’s mail client with a pre-filled `mailto:tballad@me.com` draft (subject + body). If nothing opens, use the Email card or footer link.
+
+## Design system bundle
+
+The folder [design-system/](design-system/) contains the exported **T. Ballad Design System** (README, `colors_and_type.css`, preview specimens, React UI kit reference, icons). The live site stays a single stylesheet: [css/styles.css](css/styles.css).
 
 ## Links
 
