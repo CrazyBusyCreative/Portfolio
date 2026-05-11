@@ -1,13 +1,13 @@
-# triciaballad.com
+# tballad.me
 
-Personal portfolio and resume site for Tricia Ballad — AI Engineer and Technical Program Manager.
+Personal portfolio and resume site for T. Ballad — AI Engineer and Technical Program Manager.
 
 ## Stack
 
 Static HTML + CSS custom properties + vanilla JS. No framework, no build step, no CMS.
 
 ```
-triciaballad.com/
+tballad.me/
 ├── index.html          Home / hero
 ├── projects.html       Project portfolio
 ├── about.html          Story, timeline, tech stack
@@ -17,23 +17,22 @@ triciaballad.com/
 ├── js/
 │   └── nav.js          Mobile menu + active nav state
 ├── assets/
-│   ├── headshot.jpg    Profile photo (add manually)
-│   ├── resume.pdf      Resume PDF (add manually)
-│   └── resume.docx     Resume DOCX (add manually)
+│   ├── Ballad_AI_Engineer.pdf   Resume PDF (add / replace manually)
+│   ├── Ballad_AI_Engineer.docx  Resume DOCX (add / replace manually)
+│   └── …               Project screenshots and book covers
 └── README.md
 ```
 
 ## Assets to add manually
 
-Before deploying, drop these files into `assets/`:
+Before deploying, ensure these files exist under `assets/`:
 
-| File | Source |
+| File | Notes |
 |------|--------|
-| `headshot.jpg` | Ballad_Tricia_487-_597.jpg — rename on copy |
-| `resume.pdf` | Export from your resume tool |
-| `resume.docx` | Export from your resume tool |
+| `Ballad_AI_Engineer.pdf` | Export from your resume tool |
+| `Ballad_AI_Engineer.docx` | Export from your resume tool |
 
-Screenshots for SignalForge and SignalCast can replace the gray placeholder `<div>` elements in `index.html` and `projects.html` once available.
+Screenshots for SignalForge and SignalCast live in `assets/` and are referenced from `index.html` and `projects.html`.
 
 ---
 
@@ -43,12 +42,12 @@ This is a static site deployed via Cloudflare Pages. No build step, no framework
 
 ### One-time setup
 
-1. Push this repo to GitHub under the HexCodeStudio org (suggested name: `triciaballad-com`)
+1. Push this repo to GitHub under the HexCodeStudio org (suggested name: `tballad-me`)
 2. In the Cloudflare dashboard → **Pages** → **Create a project** → **Connect to Git** → select the repo
 3. Build settings: leave blank — no build command, no build output directory (Cloudflare serves the root)
 4. Click **Deploy** — first deploy runs automatically
-5. In the Pages project settings → **Custom Domains** → add `triciaballad.com`
-6. Update DNS: point `triciaballad.com` to the Cloudflare Pages project (if the domain is already on Cloudflare DNS, this is one click)
+5. In the Pages project settings → **Custom Domains** → add `tballad.me`
+6. Update DNS: point `tballad.me` to the Cloudflare Pages project (if the domain is already on Cloudflare DNS, this is one click)
 
 ### Ongoing deploys
 
@@ -90,9 +89,21 @@ npx serve .
 
 Then open `http://localhost:8000`.
 
+### Copy guard (optional)
+
+```bash
+npm test
+```
+
+Runs a small check that HTML and README avoid deprecated branding strings.
+
 ## Fonts
 
 Loaded from Google Fonts in each page `<head>`:
 
-- **Architects Daughter** — headings and display text
+- **Caveat** — headings and display text
 - **Barlow** — body, nav, tags, metadata
+
+## Links
+
+- LinkedIn: https://linkedin.com/in/tballad
