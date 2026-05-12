@@ -19,7 +19,7 @@ tballad.me/
 │   └── contact-form.js     Contact page: builds mailto draft on submit
 ├── design-system/      Authoritative token + UI kit bundle (see below)
 ├── assets/
-│   ├── Ballad_TPM.docx     Resume (Word) linked site-wide
+│   ├── Ballad_TPM.pdf      Resume (PDF) linked site-wide
 │   ├── icons/              e.g. bar-chart-3.svg (design system)
 │   └── …                   Project screenshots and book covers
 └── README.md
@@ -31,7 +31,7 @@ Before deploying, ensure these files exist under `assets/`:
 
 | File | Notes |
 |------|--------|
-| `Ballad_TPM.docx` | Primary resume file linked from the site (replace when you export a new version) |
+| `Ballad_TPM.pdf` | Primary resume file linked from the site (replace when you export a new version) |
 
 Screenshots for SignalForge and SignalCast live in `assets/` and are referenced from `index.html` and `projects.html`.
 
