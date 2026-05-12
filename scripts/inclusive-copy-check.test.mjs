@@ -14,7 +14,9 @@ const FORBIDDEN = [
   { name: 'legacy LinkedIn handle', re: /linkedin\.com\/in\/triciaballad/i },
   { name: 'legacy resume basename', re: /Tricia_Ballad_AI_Resume/i },
   { name: 'legacy headshot filename', re: /TriciaBallad\.jpg/i },
-  { name: 'Architects Daughter font (replaced by Caveat)', re: /Architects\+Daughter|Architects Daughter/i },
+  { name: 'deprecated Architects Daughter font', re: /Architects\+Daughter|Architects Daughter/i },
+  { name: 'deprecated Caveat display font', re: /\bCaveat\b/i },
+  { name: 'TRS chart emoji', re: /\u{1F4CA}|&#x1[Ff]4[Cc][Aa];/u },
 ];
 
 function scanFiles() {

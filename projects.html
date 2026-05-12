@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,31 @@
   <meta name="description" content="Production AI systems, iOS apps, and published technical writing by T. Ballad.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
   <!-- ── Navigation ─────────────────────────────────────────── -->
   <nav class="nav" aria-label="Main navigation">
     <div class="nav__inner">
       <a href="index.html" class="nav__brand">T. Ballad</a>
-      <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation menu">
+      <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu"
+        aria-label="Open navigation menu">
         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
-          <rect y="4"  width="22" height="2" rx="1" fill="currentColor"/>
-          <rect y="10" width="22" height="2" rx="1" fill="currentColor"/>
-          <rect y="16" width="22" height="2" rx="1" fill="currentColor"/>
+          <rect y="4" width="22" height="2" rx="1" fill="currentColor" />
+          <rect y="10" width="22" height="2" rx="1" fill="currentColor" />
+          <rect y="16" width="22" height="2" rx="1" fill="currentColor" />
         </svg>
       </button>
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__links">
           <li><a href="projects.html" class="nav-link">Projects</a></li>
-          <li><a href="about.html"    class="nav-link">About</a></li>
-          <li><a href="contact.html"  class="nav-link">Contact</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
         <a href="assets/Ballad_AI_Engineer.pdf" download class="btn btn--primary">Download Resume</a>
       </div>
@@ -52,7 +57,8 @@
         <div class="project-card__layout">
 
           <div>
-            <img src="assets/SignalForge.jpg" alt="SignalForge AI Lead Intelligence Platform screenshot" class="project-screenshot">
+            <img src="assets/SignalForge.jpg" alt="SignalForge AI Lead Intelligence Platform screenshot"
+              class="project-screenshot">
           </div>
 
           <div>
@@ -66,11 +72,28 @@
               <span class="tag">HTMX</span>
               <span class="tag">Multi-LLM abstraction</span>
             </div>
-            <div><span class="score-callout">&#x1F4CA; 84 TRS</span></div>
+            <div>
+              <span class="score-callout">
+                <span class="score-callout__icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
+                    <path d="M18 17V9"></path>
+                    <path d="M13 17V5"></path>
+                    <path d="M8 17v-3"></path>
+                  </svg>
+                </span>
+                84 TRS
+              </span>
+            </div>
             <p class="project-card__desc">
-              Production Python/FastAPI application that monitors a portfolio of startups and surfaces fractional CTO opportunities through LLM analysis. Features multi-dimensional Technical Readiness Scoring, human-in-the-loop outreach governance, and ethical AI guardrails that actively prevent over-contact. Designed and shipped end-to-end.
+              Production Python/FastAPI application that monitors a portfolio of startups and surfaces fractional CTO
+              opportunities through LLM analysis. Features multi-dimensional Technical Readiness Scoring,
+              human-in-the-loop outreach governance, and ethical AI guardrails that actively prevent over-contact.
+              Designed and shipped end-to-end.
             </p>
-            <a href="https://github.com/hexcodestudio" class="project-card__link" rel="noopener noreferrer">View Project &rarr;</a>
+            <a href="https://github.com/hexcodestudio" class="project-card__link" rel="noopener noreferrer">View Project
+              &rarr;</a>
           </div>
 
         </div>
@@ -82,7 +105,8 @@
         <div class="project-card__layout">
 
           <div>
-            <img src="assets/SignalCast Screenshot.jpg" alt="SignalCast AI Job Briefing App screenshot" class="project-screenshot">
+            <img src="assets/SignalCast Screenshot.jpg" alt="SignalCast AI Job Briefing App screenshot"
+              class="project-screenshot">
           </div>
 
           <div>
@@ -97,9 +121,12 @@
               <span class="tag">HTMX</span>
             </div>
             <p class="project-card__desc">
-              Local-first AI job briefing tool. Aggregates listings from four sources, scores them against a candidate profile using Claude, and delivers a ranked daily briefing. Multi-source ingestion, LLM scoring pipelines, and APScheduler-driven automation.
+              Local-first AI job briefing tool. Aggregates listings from four sources, scores them against a candidate
+              profile using Claude, and delivers a ranked daily briefing. Multi-source ingestion, LLM scoring pipelines,
+              and APScheduler-driven automation.
             </p>
-            <a href="https://github.com/hexcodestudio" class="project-card__link" rel="noopener noreferrer">github.com/hexcodestudio &rarr;</a>
+            <a href="https://github.com/hexcodestudio" class="project-card__link"
+              rel="noopener noreferrer">github.com/hexcodestudio &rarr;</a>
           </div>
 
         </div>
@@ -114,8 +141,9 @@
             <div class="app-entry__icon">
               <!-- Leaf -->
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M12 22C12 22 4 17 4 10a8 8 0 0116 0c0 7-8 12-8 12z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-                <path d="M12 22V10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M12 22C12 22 4 17 4 10a8 8 0 0116 0c0 7-8 12-8 12z" stroke="currentColor" stroke-width="1.8"
+                  stroke-linejoin="round" />
+                <path d="M12 22V10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
               </svg>
             </div>
             <div>
@@ -128,7 +156,8 @@
             <div class="app-entry__icon">
               <!-- Star -->
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l7.1-1.01L12 2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l7.1-1.01L12 2z"
+                  stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
               </svg>
             </div>
             <div>
@@ -141,7 +170,8 @@
             <div class="app-entry__icon">
               <!-- Diamond -->
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M12 2l10 10-10 10L2 12 12 2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M12 2l10 10-10 10L2 12 12 2z" stroke="currentColor" stroke-width="1.8"
+                  stroke-linejoin="round" />
               </svg>
             </div>
             <div>
@@ -167,7 +197,8 @@
         <div class="books-grid">
 
           <div class="book-item">
-            <img src="assets/AccessControl.png" alt="Access Control, Authentication & Public Key Infrastructure book cover" class="book-cover">
+            <img src="assets/AccessControl.png"
+              alt="Access Control, Authentication & Public Key Infrastructure book cover" class="book-cover">
             <p class="book-item__title">Access Control, Authentication &amp; Public Key Infrastructure</p>
             <p class="book-item__publisher">Jones &amp; Bartlett Learning</p>
           </div>
@@ -179,7 +210,8 @@
           </div>
 
           <div class="book-item">
-            <img src="assets/DummiesBook.png" alt="PHP & MySQL Web Development All-in-One Desk Reference book cover" class="book-cover">
+            <img src="assets/DummiesBook.png" alt="PHP & MySQL Web Development All-in-One Desk Reference book cover"
+              class="book-cover">
             <p class="book-item__title">PHP &amp; MySQL Web Development All-in-One Desk Reference</p>
             <p class="book-item__publisher">Wiley / For Dummies</p>
           </div>
@@ -209,24 +241,27 @@
     <div class="footer__links">
       <a href="https://github.com/hexcodestudio" class="footer__link" rel="noopener noreferrer">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          <path
+            d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"
+            stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
         </svg>
         GitHub
       </a>
       <span class="footer__sep" aria-hidden="true">|</span>
       <a href="https://linkedin.com/in/tballad" class="footer__link" rel="noopener noreferrer">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <rect x="2" y="2" width="20" height="20" rx="3" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M7 10v7M7 7v.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          <path d="M11 17v-4a2 2 0 014 0v4M11 10v7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="2" y="2" width="20" height="20" rx="3" stroke="currentColor" stroke-width="1.5" />
+          <path d="M7 10v7M7 7v.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M11 17v-4a2 2 0 014 0v4M11 10v7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+            stroke-linejoin="round" />
         </svg>
         LinkedIn
       </a>
       <span class="footer__sep" aria-hidden="true">|</span>
       <a href="mailto:tballad@me.com" class="footer__link">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M2 7l10 7 10-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5" />
+          <path d="M2 7l10 7 10-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
         </svg>
         tballad@me.com
       </a>
@@ -235,4 +270,5 @@
 
   <script src="js/nav.js"></script>
 </body>
+
 </html>
